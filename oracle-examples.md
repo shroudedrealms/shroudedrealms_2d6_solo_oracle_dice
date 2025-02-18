@@ -1,4 +1,4 @@
-# Complete Oracle Examples
+# Oracle System Examples
 
 ## Reading the Examples
 Each example follows this format:
@@ -10,258 +10,218 @@ Special Effect: [If any ⭐ or ★ matches occur]
 Interpretation: [How to interpret this result]
 ```
 
-## Scale Shift Results (⭐)
+## Expansion Effects (⭐)
 
-### Pure Scale Shifts (&⭐)
+### Dramatic Expansions (&⭐)
 
 Q: "Is there a secret passage in the library?"
 ```
 Roll: 6 (Y⭐) + 6 (&⭐)
 Base Result: Yes AND
-Special Effect: Pure Scale Up
-Interpretation: Not only is there a secret passage, but you discover it's part of an extensive underground network connecting multiple city locations.
+Special Effect: Dramatic Expansion
+Interpretation: You discover an extensive network of hidden passages across the entire library complex, dramatically expanding the scope of your exploration.
 ```
 
-Q: "Did we fail to protect the village?"
+Q: "Have the bandits left the area?"
 ```
 Roll: 1 (N⭐) + 6 (&⭐)
 Base Result: No AND
-Special Effect: Pure Scale Up
-Interpretation: Not only did you fail, but the attack reveals a full-scale invasion is imminent.
+Special Effect: Dramatic Expansion
+Interpretation: Not only are they still here, but you've stumbled upon their main base of operations, revealing a much larger threat than expected.
 ```
 
-### Complex Scale Shifts (B⭐)
+### Complex Expansions (B⭐)
 
-Q: "Do I find the merchant's ledger?"
+Q: "Do I find the rare herb?"
 ```
 Roll: 6 (Y⭐) + 5 (B⭐)
 Base Result: Yes BUT
-Special Effect: Complex Scale Up
-Interpretation: You find the ledger, revealing a vast smuggling operation, but now you're caught up in something much bigger and more dangerous.
+Special Effect: Complex Expansion
+Interpretation: You find a whole field of the herb, but it's guarded by a previously unknown forest spirit who demands a quest in exchange for harvesting rights.
 ```
 
-Q: "Is the magical artifact destroyed?"
+Q: "Is the castle abandoned?"
 ```
 Roll: 1 (N⭐) + 5 (B⭐)
 Base Result: No BUT
-Special Effect: Complex Scale Up
-Interpretation: The artifact survives but has fractured into multiple pieces, each scattered to different mystical locations.
+Special Effect: Complex Expansion
+Interpretation: The castle is occupied by something unexpected - temporal echoes of multiple time periods are overlapping here, creating a complex web of inhabitants from different eras.
 ```
 
-## Detail Focus (★ Matches)
+## Detail Focus (★ Exact Matches Only)
 
-### Exact Matches Only (3,3 or 4,4)
-
-Q: "Can I translate the ancient text?"
+Q: "Can I translate the ancient inscription?"
 ```
 Roll: 4 (Y★) + 4 (★)
 Base Result: Yes
 Special Effect: Detail Focus
-Interpretation: You translate it and notice a specific recurring symbol that seems significant to the ritual.
+Interpretation: You translate it and notice a specific name that connects to another mystery you're investigating.
 ```
 
-Q: "Is the fortress wall breached?"
+Q: "Is the bridge safe to cross?"
 ```
 Roll: 3 (N★) + 3 (★)
 Base Result: No
 Special Effect: Detail Focus
-Interpretation: The wall holds, but you notice a structural weakness in the foundation that could be important.
+Interpretation: The bridge isn't safe, and you spot exactly where the support beams have been compromised.
 ```
 
 ## Standard Results with Modifiers
 
 ### Enhanced Success (Y&)
 
-Q: "Do I win the archery contest?"
+Q: "Do I impress the noble court?"
 ```
 Roll: 5 (Y) + 6 (&)
 Base Result: Yes AND
 Special Effect: None
-Interpretation: You win impressively, gaining the crowd's admiration.
+Interpretation: You make an excellent impression and gain a powerful patron.
 ```
 
-Q: "Can I convince the guard to help?"
+Q: "Can I repair the ancient mechanism?"
 ```
 Roll: 4 (Y) + 1 (&)
 Base Result: Yes AND
 Special Effect: None
-Interpretation: The guard not only helps but offers valuable inside information.
+Interpretation: You fix it perfectly and gain insight into how it works.
 ```
 
-### Success with Complication (YB)
+### Success with Twist (YB)
 
-Q: "Do I reach the temple before sunset?"
+Q: "Does my disguise work?"
 ```
 Roll: 6 (Y) + 2 (B)
 Base Result: Yes BUT
 Special Effect: None
-Interpretation: You arrive in time, but you're exhausted and need rest before proceeding.
+Interpretation: You fool them, but you're mistaken for someone specific - and important.
 ```
 
-Q: "Does my disguise fool the guards?"
+Q: "Do I win the race?"
 ```
 Roll: 5 (Y) + 5 (B)
 Base Result: Yes BUT
 Special Effect: None
-Interpretation: They believe you're someone else, but now they expect you to attend a restricted meeting.
+Interpretation: You win, but a competitor accuses you of cheating.
 ```
 
 ### Enhanced Failure (N&)
 
-Q: "Does the potion work as intended?"
+Q: "Is the item still in the vault?"
 ```
 Roll: 2 (N) + 6 (&)
 Base Result: No AND
 Special Effect: None
-Interpretation: The potion fails spectacularly, producing obvious and undesirable side effects.
+Interpretation: It's definitely gone, and the vault's security has been upgraded since the theft.
 ```
 
-Q: "Can I avoid the trap?"
+Q: "Does the spell work?"
 ```
 Roll: 1 (N) + 1 (&)
 Base Result: No AND
 Special Effect: None
-Interpretation: You trigger the trap dramatically, alerting nearby guards.
+Interpretation: The spell fails spectacularly, draining your magical energy.
 ```
 
 ### Failure with Benefit (NB)
 
-Q: "Do I find the rare herb?"
+Q: "Did I catch the thief?"
 ```
 Roll: 3 (N) + 2 (B)
 Base Result: No BUT
 Special Effect: None
-Interpretation: You don't find the herb, but discover a different valuable plant.
+Interpretation: They escape, but drop an important clue in their haste.
 ```
 
-Q: "Does the informant show up?"
+Q: "Can I navigate through the storm?"
 ```
 Roll: 2 (N) + 5 (B)
 Base Result: No BUT
 Special Effect: None
-Interpretation: They don't appear, but you overhear useful information while waiting.
+Interpretation: You get blown off course but discover a sheltered cove.
 ```
 
-## Plain Results (No Modifier)
+## Plain Results (Blank Modifier)
 
 ### Simple Success
 
-Q: "Is the weather clear?"
+Q: "Is the key where I left it?"
 ```
 Roll: 4 (Y) + 3 (blank)
 Base Result: Yes
 Special Effect: None
-Interpretation: Simple yes - the weather is clear.
-```
-
-Q: "Are there fresh supplies in the abandoned camp?"
-```
-Roll: 5 (Y) + 4 (blank)
-Base Result: Yes
-Special Effect: None
-Interpretation: Yes, useful supplies are available.
+Interpretation: Yes, the key is exactly where you left it.
 ```
 
 ### Simple Failure
 
-Q: "Is the bridge still intact?"
+Q: "Do I recognize the stranger?"
 ```
-Roll: 2 (N) + 3 (blank)
+Roll: 2 (N) + 4 (blank)
 Base Result: No
 Special Effect: None
-Interpretation: Simple no - the bridge is broken.
-```
-
-Q: "Do I recognize the symbol?"
-```
-Roll: 1 (N) + 4 (blank)
-Base Result: No
-Special Effect: None
-Interpretation: No, the symbol is unfamiliar.
-```
-
-## Special Cases and Clarifications
-
-### Non-Matching Stars
-
-Q: "Can I decipher the map?"
-```
-Roll: 4 (Y★) + 6 (&)
-Base Result: Yes AND
-Special Effect: None (★ doesn't match)
-Interpretation: You decipher it successfully and gain additional useful information.
-```
-
-Q: "Is the castle occupied?"
-```
-Roll: 6 (Y⭐) + 3 (★)
-Base Result: Yes
-Special Effect: None (neither star matches)
-Interpretation: Simple yes - the castle is occupied.
+Interpretation: No, you've never seen them before.
 ```
 
 ## Genre-Specific Examples
 
 ### Fantasy
 
-Q: "Does the magical portal activate?"
+Q: "Does the magical portal work?"
 ```
 Roll: 6 (Y⭐) + 6 (&⭐)
 Base Result: Yes AND
-Special Effect: Pure Scale Up
-Interpretation: The portal activates and reveals an entire network of connected magical gateways.
+Special Effect: Dramatic Expansion
+Interpretation: The portal works and reveals a vast network of connected portals throughout the realm.
 ```
 
 ### Science Fiction
 
-Q: "Can I hack the security mainframe?"
+Q: "Is the alien signal repeating?"
 ```
-Roll: 4 (Y★) + 4 (★)
-Base Result: Yes
-Special Effect: Detail Focus
-Interpretation: You access the system and notice a particular vulnerability in their encryption.
+Roll: 6 (Y⭐) + 5 (B⭐)
+Base Result: Yes BUT
+Special Effect: Complex Expansion
+Interpretation: It's repeating but reveals patterns suggesting multiple alien civilizations in communication.
 ```
 
 ### Horror
 
-Q: "Is the abandoned asylum quiet?"
+Q: "Is the house haunted?"
 ```
-Roll: 1 (N⭐) + 5 (B⭐)
-Base Result: No BUT
-Special Effect: Complex Scale Up
-Interpretation: You hear disturbing sounds and discover evidence of a much larger supernatural presence.
+Roll: 1 (N⭐) + 6 (&⭐)
+Base Result: No AND
+Special Effect: Dramatic Expansion
+Interpretation: It's not haunted - it's a nexus point where multiple dimensions are bleeding together.
 ```
 
 ### Mystery
 
-Q: "Does the witness remember anything useful?"
+Q: "Do I spot any surveillance cameras?"
 ```
 Roll: 3 (N★) + 3 (★)
 Base Result: No
 Special Effect: Detail Focus
-Interpretation: They don't recall the incident, but they noticed a specific detail about the surroundings that provides a new lead.
+Interpretation: No cameras, but you notice subtle marks indicating recent equipment removal.
 ```
 
-## Usage Tips
+## Tips for Interpretation
 
-1. **Reading Results**
-   - Always check base result first (Y/N + modifier)
-   - Then check for special effects (matching stars)
-   - Let the question context guide interpretation
+1. **Base Results**
+   - Always start with the Y/N outcome
+   - Apply modifiers (&/B) if present
+   - Keep unmodified results simple
 
-2. **Scale Shifts**
-   - Pure shifts (& + ⭐) expand the current situation
-   - Complex shifts (B + ⭐) add major twists
-   - Let the base Y/N guide the direction
+2. **Expansions**
+   - Dramatic (&⭐): Expand scope significantly
+   - Complex (B⭐): Add new layers/complications
+   - Let base result guide the direction
 
 3. **Detail Focus**
-   - Only applies on exact ★ matches (3,3 or 4,4)
-   - Adds specific detail to the basic result
-   - Creates potential story hooks
+   - Only on exact ★ matches (3,3 or 4,4)
+   - Add specific, notable details
+   - Create potential story hooks
 
-4. **Standard Modifiers**
-   - & intensifies the base result
-   - B adds complication/benefit
-   - Blank faces keep it simple
-
-Remember: The oracle provides inspiration - interpret results to best serve your story's needs.
+4. **Context Matters**
+   - Consider genre and setting
+   - Scale effects appropriately
+   - Build on existing narrative
