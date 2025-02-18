@@ -1,193 +1,115 @@
-# 2d6 Oracle System Documentation
+# 2d6 Oracle System
 
-## Contents
-1. README.md - System Overview
-2. EXAMPLES.md - Detailed Examples
-3. REFERENCE.md - Quick Reference
-4. DICE_CREATION.md - Physical Dice Instructions
+## Core Mechanics
 
----
-
-# README.md
-
-## System Overview
-A two-dice oracle system for solo and GM-less roleplaying games, combining standard yes/no outcomes with scale shifts and detail focus effects.
-
-### Components
-- Two six-sided dice (2d6)
-- Die 1: Outcome Die (Yes/No)
-- Die 2: Modifier Die (Modifiers and Special Effects)
-
-### Core Mechanics
-
-#### Die 1 (Outcome)
-- 1-3: No
-- 4-6: Yes
-- Special Marks:
-  - ⭐ on 1 and 6
-  - ★ on 3 and 4
-
-#### Die 2 (Modifier)
-- 1,6: AND (&) - Enhances/intensifies result
-- 2,5: BUT (B) - Adds twist/complication
-- 3,4: No modifier (blank faces)
-- Special Marks:
-  - ⭐ on 5 (B) and 6 (&)
-  - ★ on 3 and 4 (only relevant when matching Die 1)
+### Base Resolution
+- **Die 1 (Outcome)**: Determines Yes (4-6) or No (1-3)
+- **Die 2 (Modifier)**: Adds detail to outcome
+  - & (1,6): Enhances the result
+  - B (2,5): Adds a twist
+  - Blank (3,4): No modification
 
 ### Special Effects
 
-#### Scale Shifts (⭐+⭐)
-Occurs when ⭐ symbols match (8.34% chance):
+#### Expansions (⭐ Matches)
+When ⭐ symbols match (8.34% chance):
 
-1. Pure Scale Up (2.78%)
-   - Matching & with ⭐
-   - Natural expansion of current situation
+1. **Dramatic Expansion** (2.78%)
+   - Occurs with & modifier
+   - Expands scope significantly
+   - Intensifies current situation
+   - Example: Finding a map leads to discovering an entire lost civilization
 
-2. Complex Scale Up (5.56%)
-   - Matching B with ⭐
-   - Expansion with twist/complication
+2. **Complex Expansion** (5.56%)
+   - Occurs with B modifier
+   - Expands scope with complications
+   - Introduces new elements
+   - Example: Finding a key reveals a vast conspiracy
 
-#### Detail Focus (★+★)
-Occurs only on exact matches (3,3 or 4,4):
-- Reveals specific detail about situation
-- Base Y/N result determines if detail is helpful or complicating
+#### Detail Focus (★ Matches)
+- Occurs only on exact matches (3,3 or 4,4)
+- Reveals specific important detail
+- Base result (Y/N) determines if detail helps or hinders
 
-### Probability Distribution
+## Result Types
 
-| Result | Chance | Description |
-|--------|---------|-------------|
-| Y& | 16.67% | Enhanced success |
-| YB | 16.67% | Success with complication |
-| Y | 16.67% | Simple success |
-| N& | 16.67% | Enhanced failure |
-| NB | 16.67% | Failure with benefit |
-| N | 16.67% | Simple failure |
+### Standard Results
 
-Special Effects Probabilities:
-- Scale Shifts: 8.34% total
-  - Pure Scale (& match): 2.78%
-  - Complex Scale (B match): 5.56%
-- Detail Focus (★ match): 5.56%
+| Roll | Result | Description |
+|------|---------|------------|
+| Y& | Enhanced Success | Clear success with additional benefit |
+| YB | Success with Twist | Success but something complicates it |
+| Y | Simple Success | Basic success |
+| N& | Enhanced Failure | Clear failure with additional problem |
+| NB | Failure with Benefit | Failure but something helps |
+| N | Simple Failure | Basic failure |
 
----
+### Special Results
 
-# EXAMPLES.md
+| Type | Trigger | Effect |
+|------|---------|--------|
+| Dramatic Expansion | ⭐+&⭐ | Situation grows significantly |
+| Complex Expansion | ⭐+B⭐ | Situation grows with new complications |
+| Detail Focus | ★+★ (exact) | Specific detail emerges |
 
-## Basic Results
+## Usage Guidelines
 
-### Simple Yes/No
-Question: "Is the door locked?"
+1. **Check Base Result First**
+   - Read Die 1 for Y/N
+   - Apply Die 2 modifier if &/B
+   - Blank faces mean no modification
+
+2. **Check for Special Effects**
+   - ⭐ matches: Determine expansion type
+   - ★ exact matches: Detail Focus
+   - No matches: Use base result only
+
+3. **Interpret in Context**
+   - Let the situation guide interpretation
+   - Use expansions to grow the story
+   - Use details to add depth
+
+## Example Interpretations
+
+### Dramatic Expansions
 ```
-Roll: 5 (Y) + 3 (blank)
-Result: Yes
-Interpretation: Simple yes - the door is locked.
-```
-
-### Modified Results
-Question: "Do I notice the guard?"
-```
-Roll: 4 (Y) + 1 (&)
-Result: Yes AND
-Interpretation: You spot the guard and notice their patrol pattern.
-```
-
-### Blank Modifier
-Question: "Is the potion effective?"
-```
-Roll: 6 (Y⭐) + 3 (blank)
-Result: Yes
-Interpretation: The potion works as expected (ignore ⭐ without match).
-```
-
-## Scale Shifts
-
-### Pure Scale (& + ⭐)
-Question: "Do I find the ancient tome?"
-```
+Q: "Do I find the ancient temple?"
 Roll: 6 (Y⭐) + 6 (&⭐)
-Result: Yes AND + Pure Scale Up
-Interpretation: You find not just the tome but an entire hidden library.
+Result: Yes AND + Dramatic Expansion
+Interpretation: You find not just a temple, but the central hub of an entire lost civilization.
 ```
 
-### Complex Scale (B + ⭐)
-Question: "Is the castle abandoned?"
+### Complex Expansions
 ```
+Q: "Is the town safe?"
 Roll: 1 (N⭐) + 5 (B⭐)
-Result: No BUT + Complex Scale Up
-Interpretation: It's occupied, but by something far stranger than expected - evidence suggests a portal to another realm.
+Result: No BUT + Complex Expansion
+Interpretation: The town is threatened by something far bigger than expected, but you discover potential allies.
 ```
 
-## Detail Focus (★ Matches)
-Question: "Can I decipher the runes?"
+### Detail Focus
 ```
+Q: "Can I decode the message?"
 Roll: 4 (Y★) + 4 (★)
 Result: Yes + Detail Focus
-Interpretation: You decipher them and notice a recurring symbol that could be significant.
+Interpretation: You decode it and notice a specific pattern that could be important later.
 ```
 
----
+## Tips for Use
 
-# REFERENCE.md
+1. **Base Results**
+   - Keep simple results straightforward
+   - Use modifiers to add appropriate depth
+   - Let the narrative guide modifier interpretation
 
-## Quick Reference Guide
+2. **Expansions**
+   - Dramatic: Grow the situation naturally
+   - Complex: Add new elements and complications
+   - Let Y/N guide the direction
 
-### Die 1 (Outcome)
-- 1-3: No
-- 4-6: Yes
-- ⭐ on 1,6
-- ★ on 3,4
+3. **Details**
+   - Use for specific, focused information
+   - Create potential story hooks
+   - Keep relevant to current situation
 
-### Die 2 (Modifier)
-- 1,6: AND (&)
-- 2,5: BUT (B)
-- 3,4: No modifier
-- ⭐ on 5,6
-- ★ on 3,4
-
-### Special Effects
-1. Scale Shifts (⭐+⭐)
-   - With &: Natural expansion
-   - With B: Complex expansion
-
-2. Detail Focus
-   - Only on exact ★ matches (3,3 or 4,4)
-   - Y/N determines detail type
-
----
-
-# DICE_CREATION.md
-
-## Physical Dice Creation
-
-### Materials Needed
-- Two six-sided dice
-- Permanent marker
-- (Optional) Different colors for each die
-
-### Marking Instructions
-
-#### Die 1 (Outcome)
-1. Mark faces 1-3 with "N"
-2. Mark faces 4-6 with "Y"
-3. Add ⭐ to faces 1 and 6
-4. Add ★ to faces 3 and 4
-
-#### Die 2 (Modifier)
-1. Mark faces 1 and 6 with "&"
-2. Mark faces 2 and 5 with "B"
-3. Leave faces 3 and 4 blank
-4. Add ⭐ to faces 5 and 6
-5. Add ★ to faces 3 and 4
-
-### Tips
-- Use clear, distinct symbols
-- Consider color-coding for easier reading
-- Test markers for permanence
-- Make sure special marks are clearly distinguishable
-
-## License
-[Appropriate license information]
-
-## Credits
-[Credit information]
+Remember: This oracle is a tool for inspiration. Interpret results in ways that best serve your story.
